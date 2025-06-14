@@ -5,4 +5,4 @@ plotly
 seaborn
 matplotlib
 scikit-learn
-tensorflow>=2.10,<2.16
+tensorflow==2.15.0
