@@ -6,5 +6,4 @@ seaborn==0.13.2
 matplotlib==3.10.3
 scikit-learn==1.7.0
 
-# Use TensorFlow 2.19.0rc0 which has wheels for Python 3.13
-tensorflow==2.19.0rc0
+tensorflow>=2.10,<2.16
