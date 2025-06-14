@@ -1,8 +1,10 @@
-streamlit
-pandas
-numpy
-plotly
-seaborn
-matplotlib
-scikit-learn
-tensorflow==2.15.0
+streamlit==1.45.1
+pandas==2.3.0
+numpy==2.3.0
+plotly==6.1.2
+seaborn==0.13.2
+matplotlib==3.10.3
+scikit-learn==1.7.0
+
+# Use TensorFlow 2.19.0rc0 which has wheels for Python 3.13
+tensorflow==2.19.0rc0
