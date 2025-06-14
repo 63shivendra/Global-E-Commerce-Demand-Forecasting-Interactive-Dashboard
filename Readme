@@ -1,0 +1,69 @@
+# 🌍 Global E-Commerce Demand Forecasting Dashboard
+
+An interactive and fully deployed dashboard to visualize and forecast product demand across global markets using real e-commerce data. This project demonstrates how machine learning can help optimize inventory, reduce stockouts, and boost profitability for online retailers.
+---
+
+## 📌 Features
+
+✅ **Time Series Forecasting** using ML model (Random Forest / Linear Regression)  
+✅ **Dynamic Filtering** by product category, country, and time  
+✅ **Interactive Visualizations** (Plotly, Seaborn, Matplotlib)  
+✅ **Streamlit Dashboard** fully deployed on the cloud  
+✅ **Scalable Code** organized into reusable modules  
+
+---
+
+## 📊 Tech Stack
+
+| Tool | Usage |
+|------|-------|
+| **Python** | Core programming language |
+| **Pandas & NumPy** | Data cleaning, aggregation, preprocessing |
+| **Scikit-learn** | Machine learning model training |
+| **Matplotlib & Seaborn** | Static visualizations |
+| **Plotly** | Interactive charts |
+| **Streamlit** | Web-based interactive dashboard |
+| **GitHub** | Code version control |
+| **Streamlit Cloud** | App deployment |
+
+---
+
+## 🗃 Dataset
+
+- **Source**: Publicly available e-commerce dataset (you can link to Kaggle or source if applicable)
+- **Rows**: ~10,000+
+- **Features**: `Date`, `Product ID`, `Product Category`, `Country`, `Revenue`, `Orders`, `Units Sold`
+
+---
+
+## 📈 ML Forecasting Approach
+
+1. **Data Preprocessing**
+   - Convert dates to datetime
+   - Handle missing values
+   - Feature engineering: Month, Quarter, Year
+
+2. **Model Selection**
+   - Compared Random Forest, Linear Regression, and ARIMA
+   - Final model trained on country-product-level aggregates
+
+3. **Evaluation Metrics**
+   - MAE, RMSE, and R² used for model validation
+
+4. **Live Dashboard Integration**
+   - Forecast visualized using Streamlit sliders and filters
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/global-e-commerce-demand-forecasting-dashboard.git
+cd global-e-commerce-demand-forecasting-dashboard
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
